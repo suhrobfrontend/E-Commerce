@@ -78,6 +78,7 @@ body {
   font-weight: 600;
   font-size: 12px;
   color: #1F2937;
+  text-transform: uppercase;
 }
 .header .nav .add-menu {
   padding-left: 98px;
