@@ -20,6 +20,10 @@
       border-radius: 8px;
       padding: 0 0 22px;
       width: 371px;
+
+      .blog__img {
+        max-width: 371px;
+      }
     }
 
     .info-card__heading {

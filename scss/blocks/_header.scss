@@ -64,12 +64,6 @@
   }
 }
 
-@media screen and (max-width: $tablet) {
-  .header {
-    position: static;
-  }
-}
-
 @media screen and (max-width: $mobile) {
   .header {
     .nav {
