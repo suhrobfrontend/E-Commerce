@@ -159,7 +159,7 @@ body {
 }
 .hero .hero-texts .hero__description {
   font-family: "SF Pro Display";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #9ca3af;
@@ -334,7 +334,7 @@ body {
 }
 .explore .explore-texts .explore__description {
   font-family: "SF Pro Display";
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #9ca3af;
