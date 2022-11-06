@@ -23,13 +23,13 @@
 @media screen and (max-width: 992px) {
   .container {
     max-width: 992px;
-    padding: 0px 20px;
+    padding: 0px 6px;
   }
 }
 @media screen and (max-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0px 20px;
+    padding: 0px 6px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -55,7 +55,9 @@
   display: none;
 }
 .header .nav #close, .header .nav #menu {
-  position: absolute;
+  position: fixed;
+  background-color: #ffffff;
+  border-radius: 5px;
   top: 18px;
   right: 0px;
   font-size: 40px;
@@ -252,16 +254,17 @@
   margin-top: 110px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
   list-style-type: none;
 }
 .categories__cards .categories__card {
   cursor: pointer;
-  max-width: 300px;
-  max-height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   gap: 10px;
-  padding: 85px 85px;
+  padding: 60px;
   text-align: center;
   background: #f9fafb;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -283,11 +286,6 @@
   font-size: 16px;
 }
 
-@media screen and (max-width: 992px) {
-  .categories__cards {
-    flex-wrap: wrap;
-  }
-}
 @media screen and (max-width: 768px) {
   .categories__cards {
     flex-direction: column;
@@ -754,7 +752,7 @@
   }
   .soaps .soaps-image {
     width: 100%;
-    background: url(../../img/soapsImage.png) no-repeat;
+    background: url(../../img/soapsImage.png) no-repeat center;
     height: 600px;
     margin: 0 auto;
     background-size: cover;
