@@ -361,15 +361,6 @@ body {
   padding: 12px 30px;
   margin-top: 24px;
 }
-.explore .explore-texts .explore-link .explore__link:hover {
-  transform: scale(0.9);
-}
-.explore .explore-texts .explore-link .explore__link:focus {
-  transform: scale(0.9);
-}
-.explore .explore-texts .explore-link .explore__link:active {
-  transform: scale(0.9);
-}
 
 @media screen and (max-width: 768px) {
   .explore .explore-texts .explore__title {
@@ -432,15 +423,6 @@ body {
   text-transform: uppercase;
   border-radius: 8px;
   transition: 0.3s ease;
-}
-.bestsellers .bestsellers-block .bestsellers-texts .bestsellers__link:hover {
-  transform: scale(0.9);
-}
-.bestsellers .bestsellers-block .bestsellers-texts .bestsellers__link:focus {
-  transform: scale(0.9);
-}
-.bestsellers .bestsellers-block .bestsellers-texts .bestsellers__link:active {
-  transform: scale(0.9);
 }
 .bestsellers .bestsellers-block .bestsellers-cards {
   display: flex;
@@ -678,15 +660,6 @@ body {
   z-index: 3;
   position: relative;
 }
-.soaps .soaps-texts .soaps__link:hover {
-  transform: scale(0.9);
-}
-.soaps .soaps-texts .soaps__link:focus {
-  transform: scale(0.9);
-}
-.soaps .soaps-texts .soaps__link:active {
-  transform: scale(0.9);
-}
 .soaps .soaps-image {
   width: 47%;
 }
@@ -752,15 +725,6 @@ body {
   text-transform: uppercase;
   border-radius: 8px;
   transition: 0.3s ease;
-}
-.trends .trends-block .trends-texts .trends__link:hover {
-  transform: scale(0.9);
-}
-.trends .trends-block .trends-texts .trends__link:focus {
-  transform: scale(0.9);
-}
-.trends .trends-block .trends-texts .trends__link:active {
-  transform: scale(0.9);
 }
 .trends .trends-block .trends-cards {
   display: flex;

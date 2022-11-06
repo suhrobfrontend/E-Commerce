@@ -1,7 +1,6 @@
 .hero {
   margin-top: 79px;
   display: flex;
-  align-items: center;
   gap: 80px;
   justify-content: space-between;
 
@@ -24,6 +23,7 @@
 
   .hero-img {
     width: 50%;
+    height: 100%;
     position: relative;
     right: 0;
 
@@ -53,6 +53,7 @@
 @media (max-width: $tablet) {
   .hero {
     margin-top: 0;
+    align-items: center;
     gap: 0;
 
     .hero-texts {
