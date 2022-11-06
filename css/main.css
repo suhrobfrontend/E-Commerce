@@ -50,11 +50,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0 5px 9px -4px rgba(128, 128, 128, 0.5058823529);
 }
 .header .nav #hamburger {
   display: none;
 }
-.header .nav #close, .header .nav #menu {
+.header .nav #close,
+.header .nav #menu {
   position: fixed;
   background-color: #ffffff;
   border-radius: 5px;
@@ -95,6 +97,9 @@
 @media screen and (max-width: 992px) {
   .header {
     position: static;
+  }
+  .header .nav {
+    box-shadow: none;
   }
 }
 @media screen and (max-width: 576px) {
@@ -256,14 +261,13 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   list-style-type: none;
 }
 .categories__cards .categories__card {
   cursor: pointer;
   max-width: 250px;
   max-height: 250px;
-  gap: 10px;
   padding: 60px;
   text-align: center;
   background: #f9fafb;
@@ -380,7 +384,7 @@
   background: url(../../img/visual-flower.png) no-repeat;
   position: absolute;
   top: 5px;
-  width: 100%;
+  width: 35%;
   height: 100%;
   z-index: 1;
 }
@@ -769,8 +773,8 @@
   background: url(../../img/trends-flower.png) no-repeat;
   position: absolute;
   top: 5px;
-  width: 260px;
-  height: 564px;
+  width: 100%;
+  height: 150%;
   z-index: 1;
 }
 .trends .trends-block {
@@ -1022,10 +1026,10 @@
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 0 0 22px;
-  width: 371px;
+  max-width: 371px;
 }
 .blog .blog-cards .blog-card .blog__img {
-  max-width: 371px;
+  width: 100%;
 }
 .blog .blog-cards .info-card__heading {
   font-family: "SF Pro Display";

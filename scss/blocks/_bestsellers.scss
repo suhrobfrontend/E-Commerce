@@ -6,7 +6,7 @@
     background: url(../../img/visual-flower.png) no-repeat;
     position: absolute;
     top: 5px;
-    width: 100%;
+    width: 35%;
     height: 100%;
     z-index: 1;
   }
@@ -100,7 +100,6 @@
         background: rgba(255, 255, 255, 0.3);
         backdrop-filter: blur(7.5px);
         border-radius: 0px 20px;
-        // top: 320px;
         bottom: 0;
         padding: 13px 15px 10px;
 

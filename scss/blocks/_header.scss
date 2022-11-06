@@ -10,12 +10,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 5px 9px -4px #80808081;
 
     #hamburger {
       display: none;
     }
 
-    #close, #menu {
+    #close,
+    #menu {
       position: fixed;
       background-color: $main-white;
       border-radius: 5px;
@@ -63,13 +65,16 @@
 @media screen and (max-width: $extra-tablet) {
   .header {
     position: static;
+
+    .nav {
+      box-shadow: none;
+    }
   }
 }
 
 @media screen and (max-width: $mobile) {
   .header {
     .nav {
-
       #menu {
         display: inline-block;
         z-index: 101;
@@ -100,13 +105,13 @@
         z-index: 100;
         top: 0;
         right: -100%;
-        transition: .5s ease;
+        transition: 0.5s ease;
 
         .nav__link {
           font-size: 14px;
         }
       }
-      
+
       .add-menu {
         display: none;
       }
