@@ -364,13 +364,13 @@
   }
   .explore .explore-texts .explore__description {
     font-size: 12px;
-    padding-left: 80px;
-    line-height: 20px;
+    padding-left: 10px;
+    line-height: 16px;
     margin-top: 10px;
   }
   .explore .explore-texts .explore-link .explore__link {
-    font-size: 12px;
-    padding: 10px 24px;
+    font-size: 11px;
+    padding: 8px 16px;
     margin-top: 15px;
   }
 }

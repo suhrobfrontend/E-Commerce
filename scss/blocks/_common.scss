@@ -1,3 +1,4 @@
+// Core styles
 @font-face {
   font-family: "sf pro rounded";
   src: url(../../fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf);
@@ -14,6 +15,11 @@
   flex-wrap: nowrap;
   margin: 0 auto;
 }
+
+// fonts
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+// Media queries for responsive type
 
 @media screen and (max-width: $desktop-I) {
   .container {
