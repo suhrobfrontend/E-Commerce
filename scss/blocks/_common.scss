@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "sf pro rounded";
+  src: url(../../fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+.container {
+  max-width: $desktop;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: $desktop-I) {
+  .container {
+    max-width: $desktop-I;
+  }
+}
+
+@media screen and (max-width: $extra-tablet) {
+  .container {
+    max-width: $extra-tablet;
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: $tablet) {
+  .container {
+    max-width: $tablet;
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .container {
+    max-width: $mobile;
+    padding: 0 8px;
+  }
+}
