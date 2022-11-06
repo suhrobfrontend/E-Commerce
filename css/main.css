@@ -9,10 +9,6 @@
   box-sizing: border-box;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .container {
   max-width: 1200px;
   flex-wrap: nowrap;
@@ -166,6 +162,7 @@ body {
   margin-top: 38px;
 }
 .hero .hero-img {
+  box-sizing: border-box;
   width: 50%;
   height: 100%;
   position: relative;
