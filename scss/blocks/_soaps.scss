@@ -47,6 +47,13 @@
 }
 }
 
+@media screen and (max-width: $extra-tablet) {
+  .soaps {
+    .soaps-texts {
+      padding: 40px 5px 20px 20px;
+    }
+  }
+}
 @media screen and (max-width: $tablet) {
   .soaps {
     margin-top: 40px;

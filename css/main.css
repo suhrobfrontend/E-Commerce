@@ -144,7 +144,6 @@ body {
 .hero {
   margin-top: 79px;
   display: flex;
-  align-items: center;
   gap: 80px;
   justify-content: space-between;
 }
@@ -168,6 +167,7 @@ body {
 }
 .hero .hero-img {
   width: 50%;
+  height: 100%;
   position: relative;
   right: 0;
 }
@@ -195,6 +195,7 @@ body {
 @media (max-width: 768px) {
   .hero {
     margin-top: 0;
+    align-items: center;
     gap: 0;
   }
   .hero .hero-texts {
@@ -304,17 +305,17 @@ body {
   margin-top: 70px;
   display: flex;
   align-items: center;
-  position: relative;
   justify-content: space-between;
 }
 .explore .explore-image {
   width: 50%;
+  position: relative;
 }
 .explore .explore-image .explore-blob {
   position: absolute;
   z-index: 1;
   background: url(../../img/Blob-explore.png) no-repeat;
-  width: 50%;
+  width: 100%;
   height: 100%;
   background-size: contain;
 }
@@ -363,6 +364,9 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .explore .explore-texts {
+    width: 50%;
+  }
   .explore .explore-texts .explore__title {
     font-size: 30px;
   }
@@ -669,6 +673,11 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-width: 992px) {
+  .soaps .soaps-texts {
+    padding: 40px 5px 20px 20px;
+  }
+}
 @media screen and (max-width: 768px) {
   .soaps {
     margin-top: 40px;
