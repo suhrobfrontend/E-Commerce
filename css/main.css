@@ -48,6 +48,7 @@
 .header .nav {
   position: relative;
   display: flex;
+  padding: 0 10px;
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 5px 9px -4px rgba(128, 128, 128, 0.5058823529);
@@ -817,6 +818,7 @@
   align-items: center;
   gap: 15px;
   position: relative;
+  z-index: 2;
 }
 .trends .trends-block .trends-cards .first-card {
   position: relative;
