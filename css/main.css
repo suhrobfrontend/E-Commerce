@@ -44,6 +44,7 @@
   top: 0;
   z-index: 20;
   background-color: #ffffff;
+  box-shadow: 0 5px 9px -2px rgba(128, 128, 128, 0.5058823529);
 }
 .header .nav {
   position: relative;
@@ -51,7 +52,6 @@
   padding: 0 10px;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 5px 9px -4px rgba(128, 128, 128, 0.5058823529);
 }
 .header .nav #hamburger {
   display: none;
@@ -62,7 +62,7 @@
   background-color: #ffffff;
   border-radius: 5px;
   top: 18px;
-  right: 0px;
+  right: 5px;
   font-size: 40px;
   display: none;
 }
@@ -150,6 +150,7 @@
   width: 50%;
 }
 .hero .hero-texts .hero__title {
+  margin-top: 30px;
   font-family: "SF Pro Rounded";
   font-weight: 600;
   font-size: 70px;
@@ -1030,14 +1031,16 @@
 .blog .blog-cards .blog-card {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-  padding: 0 0 22px;
   max-width: 371px;
   cursor: pointer;
 }
 .blog .blog-cards .blog-card .blog__img {
   width: 100%;
 }
-.blog .blog-cards .info-card__heading {
+.blog .blog-cards .info-card {
+  padding: 0 10px 22px;
+}
+.blog .blog-cards .info-card .info-card__heading {
   font-family: "SF Pro Display";
   font-weight: 700;
   font-size: 20px;
@@ -1045,7 +1048,7 @@
   color: #5FD788;
   margin-top: 14px;
 }
-.blog .blog-cards .info-card__text {
+.blog .blog-cards .info-card .info-card__text {
   margin-top: 30px;
   font-family: "SF Pro Display";
   font-style: normal;

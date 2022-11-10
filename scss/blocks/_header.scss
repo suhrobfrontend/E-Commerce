@@ -4,6 +4,7 @@
   top: 0;
   z-index: 20;
   background-color: $main-white;
+  box-shadow: 0 5px 9px -2px #80808081;
 
   .nav {
     position: relative;
@@ -11,7 +12,6 @@
     padding: 0 10px;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 5px 9px -4px #80808081;
 
     #hamburger {
       display: none;
