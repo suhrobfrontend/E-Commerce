@@ -1,7 +1,37 @@
-@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 @font-face {
-  font-family: "sf pro rounded";
-  src: url(../../fonts/FontsFree-Net-SF-Pro-Rounded-Semibold.ttf);
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Semibold.woff2") format("woff2"), url("../fonts/SFProDisplay-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"), url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"), url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Rounded";
+  src: url("../fonts/SFRounded-Ultralight.woff2") format("woff2"), url("../fonts/SFRounded-Ultralight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
 }
 * {
   margin: 0;
@@ -74,7 +104,7 @@
 }
 .header .nav .nav__items .nav__link {
   text-decoration: none;
-  font-family: "sf pro display";
+  font-family: "Sf Pro Display";
   font-weight: 600;
   font-size: 12px;
   color: #1F2937;
@@ -279,9 +309,6 @@
 .categories__cards .categories__card:hover {
   background-color: #5FD788;
 }
-.categories__cards .categories__card:hover .categories__link {
-  color: #ffffff;
-}
 .categories__cards .categories__card .categories__link {
   text-decoration: none;
   color: #5FD788;
@@ -289,6 +316,9 @@
   font-family: "SF Pro Display";
   font-weight: 600;
   font-size: 16px;
+}
+.categories__cards .categories__card:hover .categories__link {
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
